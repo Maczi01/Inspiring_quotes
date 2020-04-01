@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Comic+Neue&display=swap");
+
+.App {
+  font-family: "Comic Neue", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+blockquote {
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
+  border-left: 5px solid blue;
+  font-style: italic;
+}
+
+blockquote footer {
+  font-style: normal;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding-top: 0.5em;
+  color: grey;
+}
+
+blockquote footer:before {
+  content: "\2015";
+}
