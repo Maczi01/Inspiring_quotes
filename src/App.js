@@ -1,6 +1,7 @@
 import React from "react";
 import {useQuery, gql} from "@apollo/client";
 import "./styles.css";
+import Quote from "./Quote";
 
 export default function App() {
     return (
@@ -48,11 +49,3 @@ function RandomQuote() {
 
 }
 
-function Quote({text, author}) {
-    return (
-        <blockquote>
-            {text}
-            <footer>{author}</footer>
-        </blockquote>
-    );
-}

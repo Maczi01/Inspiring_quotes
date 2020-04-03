@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Site available on https://inspiring-quotes.now.sh/
+
+Backend server on Heroku: https://nameless-tundra-75396.herokuapp.com/
+
+It was my first app in React with GraphQL
+
 ## Available Scripts
 
 In the project directory, you can run:
